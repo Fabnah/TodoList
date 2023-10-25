@@ -1,0 +1,96 @@
+html, body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+main{
+  margin-top: auto;
+}
+
+#newTask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(249, 201, 114);
+    border-radius: 10px;
+    font-size: 100px;
+    
+}
+
+dialog{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    
+  }
+
+  #textput{
+    height: 30px;
+    width: 80%;
+    font-size: 15px;
+  }
+  
+  #dateput{
+    margin-top: 20px;
+  }
+  
+  #closeDial{
+    background-color: yellow;
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+  }
+
+  #container{
+    background-color: bisque;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 5px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#complete{
+    background-color: rgb(83, 189, 83);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+#delete{
+    background-color: rgb(238, 97, 97);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+#tasks{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  height: 100%;
+  width: 90%;
+  overflow: auto;
+}
